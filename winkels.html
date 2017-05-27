@@ -1,0 +1,112 @@
+<html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <title>Winkels</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vertnav.css">
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</head>
+<body>
+      <nav>
+       <ul class="topnav">
+            <li><a href="index.html"><img src="img/Logo.jpg" width="20px" Heigt="auto"> Wall-Art </a></li>
+                        <li class="right"><a href="Contact.html"> Contact </a></li>
+            <li class="right"><a href="winkels.html"> Winkels </a></li>
+            <li class="right"><a href="overons.html"> Over ons </a></li>
+            <li class="right"><a href="Wallpapers.html"> Wallpapers</a></li>
+            </ul>
+        </nav>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+ 
+ <div class="geheel">
+    <div>
+        <h2> Locaties</h2>
+        <p> Op de volgende locaties zijn onze diverse winkels te vinden </p>
+
+        <h4>België</h4>
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+
+
+<p>
+p.a. Industriezone ‘De Waerde’ <br>
+Senator A.Jeurissenlaan 1210 <br>
+3520 Zonhoven <br>
+        </p>
+    </div>
+    <br>
+        <div>
+
+    
+            <h4>Nederland</h4>
+            <div id="map2" style="width:400px;height:400px;background:yellow"></div>
+   
+<script>
+
+</script>
+
+<script src="http://www.mapcoordinates.net/en"></script>
+
+
+            <p> Agriport 99 <br>
+            Agriport <br>
+             1775 TA Middenmeer <br> 
+            </p>
+      </div>
+      <br>
+    <div>
+             <h4>Verenigd Koninkrijk</h4>
+             <div id="map3" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+</script>
+
+
+
+            <p> 190 Walton St<br>
+             South Kensington <br>
+              London SW3 2JL
+            </p>
+        </div>
+</div>
+        </body>
+        <footer>
+      <p><Br>
+          <a href="https://www.instagram.com" target=" _blank"><img src="img/insta.png" width="20px" Heigt="auto"></a>
+   <a href="https://twitter.com" target=" _blank"><img src="img/twitter.png" width="20px" Heigt="auto"></a>
+   <a href="https://www.facebook.com" target=" _blank"><img src="img/facebook.png" width="20px" Heigt="auto"></a>
+<a href="https://www.pinterest.com" target=" _blank"><img src="img/pinterest.png" width="20px" Heigt="auto"></a>
+ <a href="https://www.youtube.com" target=" _blank"><img src="img/youtube.png" width="20px" Heigt="auto"></a>
+<a href="https://www.linkedin.com/uas/login" target=" _blank"><img src="img/in.png" width="20px" Heigt="auto"></a><br>
+<br>
+          © 2017 Wall-art by de Graaf Emma | sitemap | powered by Visual Studio Code
+          </p>
+
+<script>
+    function initMap() {
+        var Belgium = {lat: 50.9981881, lng: 5.390837};
+        var nederland = {lat:52.7550282,lng:5.0318687};
+        var Engeland = {lat:51.4939871,lng:-0.1702452}
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: Belgium
+        })
+        var map2= new google.maps.Map(document.getElementById('map2'),{
+            zoom:10,
+            center:nederland
+        })
+        var map2= new google.maps.Map(document.getElementById('map3'),{
+            zoom:10,
+            center:Engeland
+        })
+    } 
+</script>
+
+</footer>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3w9r6AaH4s1V6R31_1iR52kv9Mknjzfk&callback=initMap"></script>
+</html>
