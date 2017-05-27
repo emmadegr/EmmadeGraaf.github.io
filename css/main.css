@@ -36,12 +36,7 @@ h4 {
 }
 
 
-.link {
- font-family: 'Avenir', sans-serif;
-    color: hsla(165, 54%, 37%, 0.06)
-   
-}
-
+.link {color: hsla(165, 54%, 37%, 0.06)}
 .geheel {margin-top: 25px;
         margin-left: 25px;}
 
@@ -86,6 +81,7 @@ height:auto;
 .content,
 ul li a {
   box-shadow: 0px 1px 1px #5C5B58 ;
+   width:30%;
 }
 
 .block {
@@ -261,9 +257,6 @@ input[type=text]:focus {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
-
-
 
 
 
