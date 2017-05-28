@@ -1,0 +1,217 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+
+/* Typografie */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  background-color: #F5FFFA;
+}
+
+footer {
+  background: #DDD;
+  color: hsla(153, 4%, 48%, 0.16);
+  height: 100px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Avenir', sans-serif;
+  color: #5C5B58;
+}
+
+h1 {
+  font-family: 'Rockwell', sans-serif;
+  color: hsla(165, 54%, 37%, 0.50);
+}
+
+h2 {
+  font-family: 'Rockwell', sans-serif;
+  color: hsla(165, 54%, 37%, 0.26);
+}
+
+h3 {
+  font-family: 'Rockwell', sans-serif;
+  color: hsla(153, 4%, 48%, 0.16);
+}
+
+h4 {
+  font-family: 'Rockwell', sans-serif;
+  color: hsl(0, 0%, 0%);
+}
+
+
+/* Hyperlinks */
+
+a,
+a:visited {
+  color: hsla(153, 4%, 48%, 0.16);
+  text-decoration: none;
+  font-family: 'Avenir', sans-serif;
+}
+
+a:hover {
+  color: hsla(153, 4%, 48%, 0.16);
+  text-decoration: underline;
+    font-family: 'Avenir', sans-serif;
+
+}
+
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+
+/* Knoppen */
+
+.button {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: hsla(165, 54%, 37%, 0.50);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  background-color: hsla(165, 54%, 37%, 0.26);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button--default,
+.button--default:active,
+.button--default:visited {
+  background-color: #DDD;
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--default:hover {
+  background-color: #AAA;
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+  background-color: hsla(165, 54%, 37%, 0.26);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--primary:hover {
+  background-color: hsla(165, 54%, 37%, 0.16);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--danger,
+.button--danger:active,
+.button--danger:visited {
+  background-color: hsla(153, 4%, 48%, 0.16);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--danger:hover {
+  background-color: hsla(153, 4%, 48%, 0.10);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--success,
+.button--success:active,
+.button--success:visited {
+  background-color: hsla(165, 54%, 37%, 0.50);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+.button--success:hover {
+  background-color: hsla(165, 54%, 37%, 0.26);
+  border-bottom-color: #999;
+  color: #FFF;
+}
+
+
+/* Kleuren */
+
+.colours__colour--a {
+  background-color: hsla(165, 54%, 37%, 0.50);
+}
+
+.colours__colour--b {
+  background-color: hsla(165, 54%, 37%, 0.26);
+}
+
+.colours__colour--c {
+  background-color: hsla(153, 4%, 48%, 0.16)
+}
+
+.colours__colour--d {
+  background-color: #F5FFFA
+}
+
+.colours__colour--e {
+  background-color: #DDD
+}
+
+.colours__colour--f {
+  background-color: hsl(0, 0%, 0%)
+}
+
+
+/* Patronen */
+
+.patterns__pattern--a {
+  background-image: url(http://www.wonen.nl/images/1745/2014/graham-and-brown.jpg);
+}
+
+.patterns__pattern--b {
+  background-image: url(http://www.wonen.nl/images/1745/2014/behang-delfts-blauw-studio-ditte.jpg);
+}
+
+.patterns__pattern--c {
+  background-image: url(http://www.wonen.nl/images/1745/2014/Perscentrum-Wonen-behang.jpg);
+}
+
+
+/* Kernwoorden */
+
+.keywords__keyword--a {
+  color: hsla(165, 54%, 37%, 0.50);
+  font-size: 3.75rem;
+}
+
+.keywords__keyword--b {
+  color: hsl(0, 0%, 0%);
+  font-size: 1.5rem;
+}
+
+.keywords__keyword--c {
+  color: hsla(153, 4%, 48%, 0.16);
+  font-size: 2.5rem;
+}
+
+.keywords__keyword--d {
+  color: #DDD;
+  font-size: 3.25rem;
+}
+
+.geheel {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+#foto1 {
+  max-width: 100%;
+  height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
